@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         //This is probably not how you animate stuff
+        //As a matter of fact, it breaks if you press the button repeatedly
         diceImage.animate().apply{
             duration = 100
             rotationYBy(60f)
